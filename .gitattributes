@@ -1,0 +1,4 @@
+latest.json -text -diff
+latest.json.sig -text -diff
+publisher.pem -text -diff
+*.apk -text -diff
