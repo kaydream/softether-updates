@@ -2,5 +2,6 @@
   "versionName": "0.2.85",
   "apkUrl": "VPN-Gate-Client-0.2.85.apk",
   "sha256": "dd540c9a84843fcea846d68440cbf6bdb9342547f6342c99bf6b84d6e822f7d1",
-  "package": "com.vpngateclient.mobile"
+  "package": "com.vpngateclient.mobile",
+  "notes": "- Store gradlew as executable so a CI checkout is not \"dirty\" (kaydream)\n- Record the 0.2.85 publish and the guard that makes it un-forgettable (Step 130) (kaydream)\n- Fail CI when the build outruns the update channel (kaydream)\n- Verify the restored export against the 0.2.84 build's own file (Step 129) (kaydream)\n- Restore the 0.2.84 latency-run export and its three log lines (0.2.85 / 96) (kaydream)\n- Recover 0.2.84 from the update channel, pin the binary, and stop a dirty publish (kaydream)\n- Record the version discrepancy the phone exposed, and correct the test count (Step 126) (kaydream)\n- Land simple mode as the default, with a Refresh on its country list (0.2.83 / 94) (kaydream)"
 }
