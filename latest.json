@@ -1,7 +1,7 @@
 {
-  "versionName": "0.2.86",
-  "apkUrl": "VPN-Gate-Client-0.2.86.apk",
-  "sha256": "6d392ddb62e1b363abc10de43495262d82b5ea890587c69b9f29855626842b40",
+  "versionName": "0.2.87",
+  "apkUrl": "VPN-Gate-Client-0.2.87.apk",
+  "sha256": "6c7f5f8dbe84743bf3b8d3793c64e264dc3d229c9c372184d603055a83f00dee",
   "package": "com.vpngateclient.mobile",
-  "notes": "- Make Find Best follow the Windows rule and reject a dead tunnel (0.2.86 / 97) (kaydream)\n- Automate the channel publish from CI and log the phone's signed read (Step 131) (kaydream)\n- Store gradlew as executable so a CI checkout is not \"dirty\" (kaydream)\n- Record the 0.2.85 publish and the guard that makes it un-forgettable (Step 130) (kaydream)\n- Fail CI when the build outruns the update channel (kaydream)"
+  "notes": "- Stop the update gate pausing forever and publish the channel atomically (0.2.87 / 98) (kaydream)"
 }
