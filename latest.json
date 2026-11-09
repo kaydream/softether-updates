@@ -1,7 +1,7 @@
 {
-  "versionName": "0.2.88",
-  "apkUrl": "VPN-Gate-Client-0.2.88.apk",
-  "sha256": "b5f635a146a6e5f287d36b4fab0360db9bb872e7e378bb543735c1b43a248f6f",
+  "versionName": "0.2.89",
+  "apkUrl": "VPN-Gate-Client-0.2.89.apk",
+  "sha256": "bddda1f4460cfcf300ec37db9afdf4d7416cc6d7ce739074bcfbe18d059c05d6",
   "package": "com.vpngateclient.mobile",
-  "notes": "- Bound server-list refreshes, and stop Find Best reporting a dead server (kaydream)\n- Record the 0.2.86 publish and the one-commit 0.2.87 channel write (Step 134) (kaydream)"
+  "notes": "Find Best walks ping \u2192 uptime \u2192 speed; a dat merge replaces the list; pings under 10 ms are unmeasured. (Step 137)"
 }
