@@ -3,5 +3,5 @@
   "apkUrl": "VPN-Gate-Client-0.2.90.apk",
   "sha256": "4f5bcf13441fb5563a6409e8611565d540e28f01e5ed2eea70ea5b0e16d64354",
   "package": "com.vpngateclient.mobile",
-  "notes": "The server list now refreshes itself at start when stored data is older than 30 minutes, so an update replaces the old 545-row union without tapping Refresh. Includes every 0.2.89 fix. (Step 138)"
+  "notes": "- Refresh the server list at start when it is stored stale (0.2.90) (kaydream)\n- Record the 0.2.89 Find Best walk and the 545 \u2192 225 list replacement on device (kaydream)\n- Record the 0.2.89 publish and bump the tree's current version in AGENTS.md (kaydream)"
 }
