@@ -1,7 +1,7 @@
 {
-  "versionName": "0.2.89",
-  "apkUrl": "VPN-Gate-Client-0.2.89.apk",
-  "sha256": "bddda1f4460cfcf300ec37db9afdf4d7416cc6d7ce739074bcfbe18d059c05d6",
+  "versionName": "0.2.90",
+  "apkUrl": "VPN-Gate-Client-0.2.90.apk",
+  "sha256": "4f5bcf13441fb5563a6409e8611565d540e28f01e5ed2eea70ea5b0e16d64354",
   "package": "com.vpngateclient.mobile",
-  "notes": "- Walk Find Best by ping, replace the list on a dat merge, and stop trusting \"1 ms\" (0.2.89) (kaydream)"
+  "notes": "The server list now refreshes itself at start when stored data is older than 30 minutes, so an update replaces the old 545-row union without tapping Refresh. Includes every 0.2.89 fix. (Step 138)"
 }
