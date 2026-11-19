@@ -1,7 +1,7 @@
 {
-  "versionName": "0.2.92",
-  "apkUrl": "VPN-Gate-Client-0.2.92.apk",
-  "sha256": "f89d970a565c2e54d8348c5e9c9481abb535717edb51ad71da2de634c5524a76",
+  "versionName": "0.2.93",
+  "apkUrl": "VPN-Gate-Client-0.2.93.apk",
+  "sha256": "d9985525d4c602924c7c81891ad0cb06c8061ef17bf87cf07090ec006ad000fe",
   "package": "com.vpngateclient.mobile",
-  "notes": "- **A failed server is retried once, then the walk moves on.** Three retries against one server cost about two minutes on this ISP (each failed dial is a 12 s R-UDP timeout and four 10 s TLS ports, measured in the 2026-11-19 logcat) before the failover walk switched to a server that might actually carry traffic \u2014 the opposite of \"if failed go to next until one is connected\". The default is now one retry, and a stored three from an earlier install is migrated to it once; a three the user sets deliberately afterwards is honoured."
+  "notes": "- **Uptime is a sort again, on the server lists and the home list.** The 2026-11-19 release removed the 7d+/30d+ uptime chips and stopped offering the \"Long-lived\" order; that also took away a sort the user asked for. It is back as **Uptime** (longest-running first, unknown last) as a *chosen* order \u2014 the failover ranking still does not use it.\n- **The background update check can read its channel again.** Reading `latest.json` and its signature through this ISP's tunnel took 18 s on the phone, but each request gave up after 6 s, so the periodic check \u2014 the only one that reaches a phone nobody opened \u2014 reported \"channel unreadable\" twice while the in-app button succeeded with the same code. Each request now allows 20 s."
 }
