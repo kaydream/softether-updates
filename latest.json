@@ -1,7 +1,6 @@
 {
-  "versionName": "0.2.90",
-  "apkUrl": "VPN-Gate-Client-0.2.90.apk",
-  "sha256": "4f5bcf13441fb5563a6409e8611565d540e28f01e5ed2eea70ea5b0e16d64354",
-  "package": "com.vpngateclient.mobile",
-  "notes": "- Refresh the server list at start when it is stored stale (0.2.90) (kaydream)\n- Record the 0.2.89 Find Best walk and the 545 \u2192 225 list replacement on device (kaydream)\n- Record the 0.2.89 publish and bump the tree's current version in AGENTS.md (kaydream)"
+  "versionName": "0.2.91",
+  "apkUrl": "VPN-Gate-Client-0.2.91.apk",
+  "sha256": "f8d92c3fa073c525708f546994cbf422eb047679d2fbd2ce4c53951000381719",
+  "package": "com.vpngateclient.mobile"
 }
