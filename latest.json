@@ -1,7 +1,7 @@
 {
-  "versionName": "0.2.93",
-  "apkUrl": "VPN-Gate-Client-0.2.93.apk",
-  "sha256": "d9985525d4c602924c7c81891ad0cb06c8061ef17bf87cf07090ec006ad000fe",
+  "versionName": "0.2.94",
+  "apkUrl": "VPN-Gate-Client-0.2.94.apk",
+  "sha256": "705bee49e6999eda7afe9bfc12121ac610c62fca356fe7603b877eeb14fbde53",
   "package": "com.vpngateclient.mobile",
-  "notes": "- **Uptime is a sort again, on the server lists and the home list.** The 2026-11-19 release removed the 7d+/30d+ uptime chips and stopped offering the \"Long-lived\" order; that also took away a sort the user asked for. It is back as **Uptime** (longest-running first, unknown last) as a *chosen* order \u2014 the failover ranking still does not use it.\n- **The background update check can read its channel again.** Reading `latest.json` and its signature through this ISP's tunnel took 18 s on the phone, but each request gave up after 6 s, so the periodic check \u2014 the only one that reaches a phone nobody opened \u2014 reported \"channel unreadable\" twice while the in-app button succeeded with the same code. Each request now allows 20 s."
+  "notes": "- **Every update request now has the same time budget, sized for the phone.** 0.2.93 gave the channel read 20 s after measuring an 18 s read through this ISP's tunnel, but the GitHub paths and the `publisher.pem` read still gave up after 6 s; they are reached over the same link and now use the same 20 s. The APK download keeps its 30 s, which is a per-read bound on a streamed file."
 }
